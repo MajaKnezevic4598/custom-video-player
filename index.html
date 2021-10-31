@@ -22,19 +22,22 @@
                     <div class="controls-btn">
                         <div class="volume">
                             <i class="fas fa-volume-up"></i>
-                            <div class="volume-range">
-                                <!-- <div class="inner-volume-range"></div> -->
-                                <input type="range" name="volume" class="volume-slider"
-                                min="1" max="100" step="1" value="100">
+                            <div class="range-conteiner">
+                                  <input type="range" class="my-slider" min="0" max="100" value="50">
                             </div>
                           </div>
+                          <div class="time">
+                                <output class="curent-duration"></output>
+                                <output class="total-duration"></output>
+                          </div>
                         <div class="centered-controls">
-                           <output class="curent-duration">Time: 0</output>
-                                <div class="toBegining">beg</div>
+                         
+                                <div class="toBegining"><i class="fas fa-step-backward"></i></div>
                                 <div class="backward-btn" data-skip = "-4"><i class="fas fa-backward"></i></div>
                                 <div class="play-pause-btn"><i class="far fa-play-circle"></i></div>
                                 <div class="forward-btn" data-skip = "4"><i class="fas fa-forward"></i></div>
-                                <output class="total-duration">Total:</output>
+                                <div class="toEnd"><i class="fas fa-step-forward"></i></div>
+                              
                         </div>
 
 
